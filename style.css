@@ -1,0 +1,78 @@
+
+.wrapper{
+background-color: #a8985f;
+}
+h1{
+    align-content: center;
+}
+
+.image{
+    padding: 11px 33px;
+    background-color:#8f7f1a ;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+   width: 303px;
+   margin: 0 auto;
+
+}
+
+.content{
+   background-color: #6947ac;
+    color: rgb(212, 218, 223);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+    max-width: 90%; /* This width image to 90% of wrapper */
+    height: auto;
+    filter: brightness(80%) grayscale(45%); /* These are the filter effect */
+    text-align: center;
+    }
+    
+    
+    h1,
+    h2 {
+    text-align: center;
+    font-size: 38px;
+    }
+
+    
+    body {
+    width: 90%;
+    padding: 25px;
+    background-image: url('/backgroundImage.jpeg'); /* This is the new background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-size: 25px;
+    }
+    
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;  /* This sets the width of the div.wrapper to 80% of the viewport width */
+    background-color: #487e93;/* This sets the background color of the div.wrapper */
+    border: 3px solid #453131;/* This sets the border of the div.wrapper */
+    padding: 30px;
+    margin: 25px auto;
+    align-items: center; /* This centers the header image within the .wrapper div */
+    }
+
+    li:nth-child(odd) {
+    font-weight: bold;
+    }
+    
+   /*media query that makes image responsive */
+    @media (max-width: 1380px) {
+    img {
+    max-width: 80%;
+    height: auto;
+    }
+    }
